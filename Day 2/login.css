@@ -1,0 +1,93 @@
+/* .border{
+    background-image: url('b5.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+        background-size: cover;
+
+} */
+form{
+    font-family: cursive;
+     height: 100vh; 
+     width: 100%; 
+     display:flex; 
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background-color: aliceblue;
+    
+    font-size: medium;
+    text-align: left;
+    background-image: url('b7.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+   
+}
+form input{
+  font-size: xx-large;
+}
+
+.content{
+    width: 30%;
+    /* background-color: red; */
+    /* border: 5px solid black; */
+    height: 70vh;
+    background-color: rgba(240, 248, 255, 0.418);
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    font-size:larger;
+ 
+}
+.userName{
+    text-align: center;
+   font-size: xx-large;
+    font-weight: lighter;
+    
+}
+.password{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.content div{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div label{
+    font-weight: bolder;
+}
+
+.content div input{
+    height: 30%;
+    /* padding: 5%; */
+    width: 100%;
+    font-size: medium;
+}
+
+.content div button{
+    padding:5%;
+    width: 10%;
+    margin-top: 30px;
+    color: rgb(247, 243, 243);
+    background-color: #0a0a0a;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px;
+    border-radius: 10px;
+}
+
+

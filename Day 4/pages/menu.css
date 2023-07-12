@@ -1,0 +1,60 @@
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  padding-right: 40px;
+  text-align: center;
+  margin-top: 70px; 
+  background-image: url('https://img.freepik.com/premium-photo/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.jpg?w=2000');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.menu-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.menu-item {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.item-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.item-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.item-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.order-button {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}

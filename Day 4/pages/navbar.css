@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  font-family: cursive;
+  opacity: 0.8;
+}
+
+.nav-text {
+  margin-left: 5px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Change to a vertical layout on smaller screens */
+    align-items: flex-end; /* Align items to the right on smaller screens */
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .nav-item {
+    margin: 5px 0; /* Add margin between items on smaller screens */
+  }
+}

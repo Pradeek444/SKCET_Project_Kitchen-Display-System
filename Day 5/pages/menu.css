@@ -1,0 +1,89 @@
+.advanced-price-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.all {
+  background-image: url('/src/assests/b13.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.advanced-price-list-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.advanced-price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.advanced-price-table th {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background-color: black;
+  color: white;
+}
+
+.advanced-price-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .advanced-price-list-container {
+    padding: 20px;
+  }
+
+  .advanced-price-list-heading {
+    font-size: 28px;
+  }
+
+  .advanced-price-table th,
+  .advanced-price-table td {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .advanced-price-list-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .advanced-price-list-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .advanced-price-table th,
+  .advanced-price-table td {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advanced-price-list-container {
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .advanced-price-list-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .advanced-price-table th,
+  .advanced-price-table td {
+    padding: 4px;
+  }
+}

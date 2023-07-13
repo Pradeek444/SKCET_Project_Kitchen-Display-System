@@ -1,0 +1,83 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+  background-image: url('/src/assests/b8.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #860808;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  margin: 0 10px;
+}
+
+.social-media-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-container {
+    margin-top: 50px; /* Adjust margin-top for smaller screens */
+  }
+
+  .contact-form {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .social-media-icons {
+    margin-top: 10px; /* Adjust margin-top for smaller screens */
+  }
+
+  .social-media-icons img {
+    width: 25px; /* Adjust image size for smaller screens */
+    height: 25px; /* Adjust image size for smaller screens */
+  }
+}

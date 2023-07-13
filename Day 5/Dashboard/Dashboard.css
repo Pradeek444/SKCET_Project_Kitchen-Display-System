@@ -1,0 +1,58 @@
+/* dashboard.css */
+
+.dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .dashboard-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add responsive styles */
+  @media (max-width: 576px) {
+    .dashboard-container h1 {
+      font-size: 28px;
+    }
+  
+    .dashboard-card {
+      padding: 16px;
+    }
+  
+    .dashboard-card h3 {
+      font-size: 20px;
+    }
+  
+    .dashboard-card p {
+      font-size: 16px;
+    }
+  }
+  
+  

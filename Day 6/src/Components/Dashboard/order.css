@@ -1,0 +1,115 @@
+/* orders.css */
+
+.orders-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10 auto;
+    padding: 20px;
+    
+  }
+  
+  .orders-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .orders-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .order-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .order-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .order-item ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .order-item li {
+    margin-bottom: 5px;
+  }
+  
+  .btn-prepare {
+    padding: 8px 16px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  .btn-prepare1 {
+    padding: 8px 16px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-prepare2 {
+    padding: 8px 16px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-prepare4 {
+    padding: 8px 16px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
+  /* Add responsive styles */
+  @media (max-width: 576px) {
+    .orders-container h1 {
+      font-size: 28px;
+    }
+  
+    .order-item {
+      padding: 16px;
+    }
+  
+    .order-item h3 {
+      font-size: 20px;
+    }
+  
+    .order-item p {
+      font-size: 14px;
+    }
+  
+    .btn-prepare {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+    .btn-prepare2 {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+    .btn-prepare4 {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  

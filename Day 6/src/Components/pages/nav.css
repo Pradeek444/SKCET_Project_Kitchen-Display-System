@@ -1,0 +1,66 @@
+.kitchen-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/src/assests/back.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.kitchen-display-content {
+  text-align: center;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.kitchen-display-heading  {
+  font-size: 100px;
+  
+  color: white;
+  margin-bottom: 1rem;
+
+}
+
+.kitchen-display-description {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.order-now-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(230, 36, 36);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-now-button:hover {
+  background-color:rgb(241, 122, 122);
+}
+
+@media (max-width: 768px) {
+  .kitchen-display-content {
+    padding: 0 1rem; 
+  }
+
+  .kitchen-display-heading {
+    font-size: 2rem; 
+  }
+
+  .kitchen-display-description {
+    font-size: 1rem; 
+  }
+
+  .order-now-button {
+    padding: 0.8rem 1.5rem; 
+    font-size: 1rem; 
+  }
+}
